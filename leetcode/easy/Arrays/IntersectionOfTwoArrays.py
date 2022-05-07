@@ -22,3 +22,26 @@ def findIntersection(arr1 , arr2) :
 arr1 = [1,2,3,2,1]
 arr2 = [1,2,2,5,1]
 print(findIntersection(arr1 , arr2))
+
+
+##################################################
+#         #if arrays are in sorted form , optimizing for that
+#         i = 0;
+#         j = 0;
+        
+#         nums1.sort()
+#         nums2.sort()
+        
+#         res = []
+        
+#         while i < len(nums1) and j < len(nums2) :
+#             if nums1[i] == nums2[j] :
+#                 res.append(nums1[i])
+#                 i += 1
+#                 j += 1
+#             elif nums2[j] < nums1[i] :
+#                 j += 1
+#             elif nums2[j] > nums1[i] :
+#                 i += 1
+        
+#         return res
